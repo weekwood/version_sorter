@@ -1,3 +1,4 @@
+require 'lib/version_sorter/version'
 Gem::Specification.new do |gemspec|
   gemspec.name = "version_sorter"
   gemspec.summary = "Fast sorting of version strings"
@@ -5,7 +6,6 @@ Gem::Specification.new do |gemspec|
   gemspec.email = "chris@ozmm.org"
   gemspec.homepage = "http://github.com/defunkt/version_sorter"
   gemspec.authors = ["Chris Wanstrath", "K. Adam Christensen"]
-  require 'lib/version_sorter/version'
   gemspec.version = VersionSorter::Version
   gemspec.require_paths = ["lib", "ext"]
   gemspec.files.include("ext")
